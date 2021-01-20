@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/faiza203/Book_GraphQL#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0"
   }
 }
