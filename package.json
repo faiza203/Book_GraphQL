@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/faiza203/Book_GraphQL/issues"
   },
-  "homepage": "https://github.com/faiza203/Book_GraphQL#readme"
+  "homepage": "https://github.com/faiza203/Book_GraphQL#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
