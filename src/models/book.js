@@ -1,6 +1,6 @@
-const { Schema } = require("mongoose");
-const moongoose = require("moongoose");
-const Schema = moongoose.schema;
+const mongoose = require("mongoose");
+
+const Schema = mongoose.Schema;
 
 const bookSchema = new Schema({
   name: String,
@@ -8,5 +8,4 @@ const bookSchema = new Schema({
   authorId: String,
 });
 
-
-module.exports = moongoose.model("Book" , bookSchema)
+module.exports = mongoose.model("Book", bookSchema);

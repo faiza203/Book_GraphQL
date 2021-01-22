@@ -22,7 +22,7 @@
     "express-graphql": "^0.12.0",
     "graphql": "^15.4.0",
     "lodash": "^4.17.20",
-    "moongoose": "^0.0.5",
+    "mongoose": "^5.11.13",
     "nodemon": "^2.0.7"
   }
 }

@@ -1,7 +1,11 @@
-const mongoose = require("moongoose");
+const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://localhost:27017/books", {})
+  .connect("mongodb://localhost:27017/books", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+  })
   .then(() => {
     console.log("Connected with mongodb");
   })

@@ -1,10 +1,10 @@
-const { Schema } = require("mongoose");
-const moongoose = require("moongoose");
-const Schema = moongoose.schema;
+const mongoose = require("mongoose");
+
+const Schema = mongoose.Schema;
 
 const authorSchema = new Schema({
   name: String,
   age: String,
 });
 
-module.exports = moongoose.model("Author", authorSchema);
+module.exports = mongoose.model("Author", authorSchema);
