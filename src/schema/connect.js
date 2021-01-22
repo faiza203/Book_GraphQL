@@ -1,11 +1,10 @@
 const mongoose = require("moongoose");
 
-mongoose.connect("mongodb://localhost:27017/books" , {
-  useNewUrlParser : true,
-  useUnifiedTopology : true,
-  useCreateIndex : true,  
-}).then(() => {
+mongoose
+  .connect("mongodb://localhost:27017/books", {})
+  .then(() => {
     console.log("Connected with mongodb");
-}).catch((e) =>{
+  })
+  .catch((e) => {
     console.log("Not Connection");
-})
+  });
